@@ -2,13 +2,19 @@ package Chapter_2.TapeDeck;
 
 public class TapeDeck {
 
-    boolean canRecord = false;
+    private boolean canRecord = false;
+
+    public void setCanRecord(boolean canRecord) {
+        this.canRecord = canRecord;
+    }
 
     void playTape() {
         System.out.println("tape playing");
     }
 
     void recordTape() {
-        System.out.println("tape recording");
+        if (canRecord) {
+            System.out.println("tape recording");
+        }
     }
 }
