@@ -7,10 +7,8 @@ public class DrumKitTestDrive {
         DrumKit d = new DrumKit();
 
         d.playSnare();
-        d.snare = false;
-        if (d.snare == true) {
-            d.playSnare();
-        }
+        d.setHasSnare(false);
+        d.playSnare();
         d.playTopHat();
     }
 }

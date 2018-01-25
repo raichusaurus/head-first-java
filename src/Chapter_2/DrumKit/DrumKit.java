@@ -2,14 +2,34 @@ package Chapter_2.DrumKit;
 
 public class DrumKit {
 
-    boolean topHat = true;
-    boolean snare = true;
+    private boolean hasTopHat = true;
+    private boolean hasSnare = true;
+
+    public void setHasTopHat(boolean hasTopHat) {
+        this.hasTopHat = hasTopHat;
+    }
+
+    public boolean getHasTopHat() {
+        return hasTopHat;
+    }
+
+    public void setHasSnare(boolean hasSnare) {
+        this.hasSnare = hasSnare;
+    }
+
+    public boolean getHasSnare() {
+        return hasSnare;
+    }
 
     void playSnare() {
-        System.out.println("bang bang ba-bang");
+        if (hasSnare) {
+            System.out.println("bang bang ba-bang");
+        }
     }
 
     void playTopHat() {
-        System.out.println("ding ding da-ding");
+        if (hasTopHat) {
+            System.out.println("ding ding da-ding");
+        }
     }
 }
