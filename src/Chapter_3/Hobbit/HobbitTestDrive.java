@@ -4,22 +4,23 @@ public class HobbitTestDrive {
 
     public static void main (String[] args) {
 
-        Hobbit[] h = new Hobbit[3];
+        Hobbit[] hobbits = new Hobbit[3];
         int z = 0;
 
-        while (z < 2) {
-            z = z + 1;
-            h[z] = new Hobbit();
-            h[z].setName("bilbo");
+        while (z < hobbits.length) {
+            hobbits[z] = new Hobbit();
+            hobbits[z].setName("bilbo");
             if (z == 1) {
-                h[z].setName("frodo");
+                hobbits[z].setName("frodo");
             }
             if (z == 2) {
-                h[z].setName("sam");
+                hobbits[z].setName("sam");
             }
 
-            System.out.print(h[z].getName() + " is a ");
+            System.out.print(hobbits[z].getName() + " is a ");
             System.out.println("good Hobbit name");
+
+            z++;
         }
     }
 }
