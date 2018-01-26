@@ -10,15 +10,15 @@ public class HobbitTestDrive {
         while (z < 2) {
             z = z + 1;
             h[z] = new Hobbit();
-            h[z].name = "bilbo";
+            h[z].setName("bilbo");
             if (z == 1) {
-                h[z].name = "frodo";
+                h[z].setName("frodo");
             }
             if (z == 2) {
-                h[z].name = "sam";
+                h[z].setName("sam");
             }
 
-            System.out.print(h[z].name + " is a ");
+            System.out.print(h[z].getName() + " is a ");
             System.out.println("good Hobbit name");
         }
     }
