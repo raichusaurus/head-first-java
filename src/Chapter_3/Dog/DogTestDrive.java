@@ -7,7 +7,7 @@ public class DogTestDrive {
         // make a Dog object and access it
         Dog dog1 = new Dog();
         dog1.bark();
-        dog1.name = "Bart";
+        dog1.setName("Bart");
 
         // now make a Dog array
         Dog[] myDogs = new Dog[3];
@@ -18,12 +18,12 @@ public class DogTestDrive {
 
         // now access the Dogs using the array
         // references
-        myDogs[0].name = "Fred";
-        myDogs[1].name = "Marge";
+        myDogs[0].setName("Fred");
+        myDogs[1].setName("Marge");
 
         // hmm... what is myDogs[2] name?
         System.out.print("last dog's name is ");
-        System.out.println(myDogs[2].name);
+        System.out.println(myDogs[2].getName());
 
         // now loop through the array
         // and tell all the dogs to bark
