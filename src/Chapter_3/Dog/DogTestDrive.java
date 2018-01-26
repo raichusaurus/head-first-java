@@ -30,7 +30,7 @@ public class DogTestDrive {
         int x = 0;
         while (x < myDogs.length) {
             myDogs[x].bark();
-            x = x + 1;
+            x++;
         }
     }
 }
