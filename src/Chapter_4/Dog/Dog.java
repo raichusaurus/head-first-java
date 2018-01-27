@@ -22,20 +22,25 @@ public class Dog {
     }
 
     void bark() {
-        if (size > 60) {
-            System.out.println("Wooof! Wooof!");
-        }
-        else if (size > 14) {
-            System.out.println("Ruff! Ruff!");
-        }
-        else {
-            System.out.println("Yip! Yip!");
-        }
+        bark(1);
     }
 
     void bark(int numBarks) {
+
+        String barkSound;
+
+        if (size > 60) {
+            barkSound = "Wooof! Wooof!";
+        }
+        else if (size > 14) {
+            barkSound = "Ruff! Ruff!";
+        }
+        else {
+            barkSound = "Yip! Yip!";
+        }
+
         while (numBarks > 0) {
-            bark();
+            System.out.println(barkSound);
             numBarks--;
         }
     }
