@@ -13,8 +13,10 @@ public class DogTestDrive {
         Dog three = new Dog();
         three.setSize(35);
 
-        one.bark();
-        two.bark();
-        three.bark();
+        Dog[] dogs = {one, two, three};
+
+        for (Dog dog : dogs) {
+            dog.bark();
+        }
     }
 }
