@@ -32,4 +32,11 @@ public class Dog {
             System.out.println("Yip! Yip!");
         }
     }
+
+    void bark(int numBarks) {
+        while (numBarks > 0) {
+            bark();
+            numBarks--;
+        }
+    }
 }

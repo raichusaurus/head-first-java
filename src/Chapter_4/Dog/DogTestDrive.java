@@ -15,8 +15,10 @@ public class DogTestDrive {
 
         Dog[] dogs = {one, two, three};
 
-        for (Dog dog : dogs) {
+        for (int i = 0; i < dogs.length; i++) {
+            Dog dog = dogs[i];
             dog.bark();
+            dog.bark(i);
         }
     }
 }
