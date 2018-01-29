@@ -2,12 +2,13 @@ package Chapter_5;
 
 public class SimpleDotCom {
 
-    int numOfHits;
+    int numOfHits = 0;
     private int[] locationCells;
 
     // stub
-    public void setLocationCells(int[] cellLocations) {
+    public void setLocationCells(int[] locationCells) {
 
+        this.locationCells = locationCells;
     }
 
     public String checkYourself(String stringGuess) {
