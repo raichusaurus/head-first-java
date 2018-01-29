@@ -1,4 +1,4 @@
-package Chapter_5;
+package Chapter_5.SimpleDotComGame;
 
 public class SimpleDotCom {
 
