@@ -21,8 +21,6 @@ public class SimpleDotComGame {
             String result = theDotCom.checkYourself(guess);
             numGuesses++;
 
-            System.out.println(result);
-
             if (result.equals("kill")) {
                 isAlive = false;
                 System.out.println("You took " + numGuesses + " guesses");
