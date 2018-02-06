@@ -1,4 +1,4 @@
-package Chapter_5.MultiFor;
+package Chapter_5_6.MultiFor;
 
 public class MultiFor {
 

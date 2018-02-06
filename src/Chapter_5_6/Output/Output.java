@@ -1,4 +1,4 @@
-package Chapter_5.Output;
+package Chapter_5_6.Output;
 
 public class Output {
 

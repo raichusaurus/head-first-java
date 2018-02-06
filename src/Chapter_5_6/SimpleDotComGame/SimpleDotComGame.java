@@ -1,4 +1,4 @@
-package Chapter_5.SimpleDotComGame;
+package Chapter_5_6.SimpleDotComGame;
 
 public class SimpleDotComGame {
 
@@ -8,7 +8,7 @@ public class SimpleDotComGame {
 
         GameHelper helper = new GameHelper();
 
-        SimpleDotCom theDotCom = new SimpleDotCom();
+        DotCom theDotCom = new DotCom();
         int randNum = (int) (Math.random() * 5);
         int[] locations = {randNum, randNum + 1, randNum + 2};
         theDotCom.setLocationCells(locations);

@@ -1,4 +1,4 @@
-package Chapter_5.SimpleDotComGame;
+package Chapter_5_6.SimpleDotComGame;
 
 import java.io.BufferedReader;
 import java.io.IOException;
