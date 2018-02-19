@@ -2,7 +2,7 @@ package Chapter_7.Animal;
 
 import Chapter_7.Tools.IntPair;
 
-public class Animal {
+public abstract class Animal {
 
     private String food;
     private int hunger;
